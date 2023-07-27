@@ -1,0 +1,42 @@
+.h{
+display: flex;
+flex-direction: column;
+
+
+}   
+.h-citas{
+    margin-top: 5em;
+    max-width: 97vw;
+    min-width: 95vw;
+    background-color: #543944;
+    overflow: hidden;
+    padding: 1em;
+    border-radius: 0.3em;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    height: 75vh;
+    z-index: -1;
+    overflow: scroll;
+    
+    
+}
+
+.h-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fff;
+    margin-bottom: 3em;
+    
+}
+
+.h-menu div{
+    font-size:medium;
+    margin-left: 0.2em;
+}
+footer{
+    position: absolute;
+    bottom: 0.5em;
+}

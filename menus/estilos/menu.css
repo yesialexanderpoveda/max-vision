@@ -1,0 +1,165 @@
+*{
+  margin: 0px;
+}
+.cont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-family: 'Inter', sans-serif;
+  color: #bf7449;
+  width: 97vw;
+  height: 2em;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  
+}
+
+.icon:hover{
+  transform: scale(1.1);
+}
+.menu{
+  align-self: center;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+}
+
+.menu li {
+  list-style: none;
+  padding:  10px;
+}
+
+.menu .li-re:hover{
+
+  transform: scale(1.1);
+}
+.menu .out:hover{
+  transform: none;
+}
+.menu li a{
+  text-decoration: none;
+  color: #bf7449;
+}
+.logo{
+  position: relative;
+  top: 1em;
+  width: 15em;
+  height: auto;
+}   
+
+.menu .out .log-out{
+  display: none;
+  width: 7em;
+  position: absolute;
+  top: 1.5em;
+  right: 1.5em;
+  margin-top: 1em;
+  background-color: #F2DDCB;
+  color: #543944;
+  border-radius: 0.5em;
+  
+  
+}
+
+.menu .out .log-out div{
+  padding: 1em;
+}
+.menu .out .log-out div:hover{
+  background-color: #f8d8bc;
+  border-radius: 0.2em;
+}
+
+.menu li span a{
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+
+.menu li .log a{
+  background-color: #593844;
+  color: #fff;
+  border-radius: 3px;
+
+}
+.log:hover{
+  transform: scale(1.1);
+}
+.reg:hover{
+  transform: scale(1.1);
+}
+
+nav ul{
+  height: 75vh;
+  width: 17%;
+  background-color: #543944;
+  border-radius: 5px;
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  
+  
+  animation: mymenu 50ms;
+} 
+nav ul li{
+  text-decoration: none;
+  list-style: none;
+  margin: 1em;
+  padding: 1em;
+  width: 100%;
+  color: #F4D4AE;
+  
+}  
+nav ul li:hover{
+  text-decoration: none;
+  list-style: none;
+  margin: 1em;
+  padding: 1em;
+  background-color: #E9E6E6;
+  color: #bf7449;
+  border-radius: 1px;
+  transform: scale(1);
+  
+}  
+
+@keyframes mymenu {
+  from {  
+    background-color: #4e323d;
+    width: 3%;
+    height: 10vh;
+  }
+  to {background-color: rgb(129, 104, 94);
+    width: 14%;
+    height: 60vh;
+  }
+}
+
+@media(max-width:830px){
+  .li-w{
+
+    display: none;
+   
+  }
+}
+
+
+@media(max-width:600px){
+  nav ul {
+    width: 30%;
+  }
+  .li-re, .log, .reg{
+
+    display: none;
+    overflow: hidden;
+  }
+}
