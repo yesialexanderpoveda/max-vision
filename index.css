@@ -1,0 +1,210 @@
+
+
+/*Cuerpo del proyecto*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: 0.2s linear;
+  }
+  
+  body {
+    background-color: white;
+  }
+  
+  /*Fin del cuerpo del proyecto*/
+  
+  /*Header*/
+
+  header {
+    background-color: #ffffff; /* Color de fondo del header */
+    padding: 10px; /* Espacio de relleno para el header */
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+  }
+  
+  .logo-container {
+    flex: 1; /* Ocupa todo el espacio posible para centrar el logo */
+    text-align: center;
+    padding-top: 60px;
+  }
+  
+  .logo-container img {
+    max-width: 500px; /* Ajusta el tamaño del logo según tus necesidades */
+  }
+  
+  .return-button-container a {
+    text-decoration: none;
+    background-color: #88727B; /* Cambia el color de fondo cuando el botón se hoverea */
+    color: #fff; /* Color del texto del botón volver al menú */
+    padding: 5px; /* Espacio de relleno del botón */
+    border-radius: 5px; /* Borde redondeado del botón */
+    display: flex;
+width: 118px;
+height: 33px;
+justify-content: center;
+align-items: center;
+  }
+  
+  .return-button-container a:hover {
+    background-color: rgb(72, 63, 69); /* Cambia el color de fondo cuando el botón se hoverea */
+  }
+  
+  
+.container {
+    background: white;
+    padding: 15px 9%;
+    padding-bottom: 100px;
+    border-radius: 8px;
+  }
+  
+  .container .heading {
+    text-align: center;
+    padding-bottom: 15px;
+    color: #000000;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.656);
+    font-size: 50px;
+  }
+  
+  .container .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+  }
+  
+  .container .box-container .box {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.656);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  .container .box-container .box img {
+    height: 100px;
+    width: 250px;
+    border-radius: 8px;
+  }
+  
+  .container .box-container .box h3 {
+    color: black;
+    font-size: 22px;
+    padding: 10px 0;
+  }
+  
+  .container .box-container .box p {
+    color: black;
+    font-size: 22px;
+    line-height: 1.8;
+  }
+  
+  .container .box-container .box:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.656);
+    transform: scale(1.03);
+  }
+
+  .letra{
+
+    border: 10px;
+    border-radius: 15px;
+    background-color:  #88727B;
+    color: #F2DDCB;
+    margin-bottom: 30px;
+    text-align: center;
+    
+  }
+
+  #correo{
+    border: 10px;
+    border-radius: 15px;
+    background-color:  #88727B;
+    color:  #F2DDCB;;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 287px;
+height: 67px;
+padding-top: 15px;
+
+  }
+
+  #contraseña{
+    border: 10px;
+    border-radius: 15px;
+    background-color:  #88727B;
+    color: #F2DDCB;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+    width: 287px;
+height: 67px;
+padding-top: 15px;
+
+  }
+
+  #pregunta{
+    border: 10px;
+    border-radius: 15px;
+    background-color:  #88727B;
+    color: #F2DDCB;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 287px;
+height: 67px;
+padding-top: 15px;
+  }
+  .cuadro-txt{
+    background-color: #dadada;
+    border-radius: 15px;
+    width: 287px;
+height: 67px;
+  }
+
+  #boton1{
+    border: 10px;
+    border-radius: 15px;
+    background-color:  #88727B;
+    color: #F2DDCB;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px 50px;
+    font-size: 20px;
+    width: 249px;
+height: 67px;
+    
+  }
+
+  #logo{
+    position: relative;top: 40px; left: 40px;
+  }
+
+  #titulo{
+    font-family: IBM Plex Serif;
+    color: #88727B;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  }
+  
+
+/*Fin header*/
+
+
+/* index.css */
