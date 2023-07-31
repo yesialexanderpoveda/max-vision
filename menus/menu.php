@@ -70,10 +70,10 @@ class Menu {
 
 
       <ul class="menu">
-        <li class="li-re"> <a href="http://localhost:8080/maxvision/productos.php"> <span class="li-w"> Productos</span> <iconify-icon icon="streamline:shopping-bag-hand-bag-1-shopping-bag-purse-goods-item-products" style="color: #bf7449;" width="1.5em"></iconify-icon></a></li>
-        <li class="li-re"> <a href="http://localhost:8080/maxvision/citas.php"> <span class="li-w">Citas </span> <iconify-icon icon="icon-park-solid:appointment" style="color: #bf7449;" width="1.5em" ></iconify-icon></a></li>
+        <li class="li-re"> <a href="http://localhost/maxvision/productos.php"> <span class="li-w"> Productos</span> <iconify-icon icon="streamline:shopping-bag-hand-bag-1-shopping-bag-purse-goods-item-products" style="color: #bf7449;" width="1.5em"></iconify-icon></a></li>
+        <li class="li-re"> <a href="http://localhost/maxvision/citas.php"> <span class="li-w">Citas </span> <iconify-icon icon="icon-park-solid:appointment" style="color: #bf7449;" width="1.5em" ></iconify-icon></a></li>
         <li><img src=" ' . $urlImg . '" alt="logo" class="logo"></li>
-        <li class="li-re"> <a href="http://localhost:8080/maxvision/contacto.php"> <span class="li-w">Contacto </span>
+        <li class="li-re"> <a href="http://localhost/maxvision/contacto.php"> <span class="li-w">Contacto </span>
         <iconify-icon icon="mingcute:whatsapp-line" style="color: #bf7449;" width="1.5em" ></iconify-icon> </a></li>
         <li>
         <li class="li-re"><a href=""> <iconify-icon  icon="typcn:shopping-cart" width="1.5em" style="color: #593844;"></iconify-icon></a> </li>
@@ -104,7 +104,7 @@ class Menu {
 
 
       <ul class="menu">
-        <li class="li-re"> <a href="http://localhost:8080/maxvision/productos.php"> <span class="li-w"> Productos</span> <iconify-icon icon="streamline:shopping-bag-hand-bag-1-shopping-bag-purse-goods-item-products" style="color: #bf7449;" width="1.5em"></iconify-icon></a></li>
+        <li class="li-re"> <a href="http://localhost/maxvision/productos.php"> <span class="li-w"> Productos</span> <iconify-icon icon="streamline:shopping-bag-hand-bag-1-shopping-bag-purse-goods-item-products" style="color: #bf7449;" width="1.5em"></iconify-icon></a></li>
         <li><img src=" ' . $urlImg . '" alt="logo" class="logo"></li>
         <li class="li-re"> <a href="#"> <span class="li-w">Pedidos</span>
         <iconify-icon icon="mingcute:whatsapp-line" style="color: #bf7449;" width="1.5em" ></iconify-icon> </a></li>
@@ -137,10 +137,10 @@ class Menu {
 
 
       <ul class="menu">
-        <li class="li-re"> <a href="http://localhost:8080/maxvision/productos.php"> <span class="li-w"> Productos</span> <iconify-icon icon="streamline:shopping-bag-hand-bag-1-shopping-bag-purse-goods-item-products" style="color: #bf7449;" width="1.5em"></iconify-icon></a></li>
-        <li class="li-re"> <a href="http://localhost:8080/maxvision/citas.php"> <span class="li-w">Citas </span> <iconify-icon icon="icon-park-solid:appointment" style="color: #bf7449;" width="1.5em" ></iconify-icon></a></li>
+        <li class="li-re"> <a href="http://localhost/maxvision/productos.php"> <span class="li-w"> Productos</span> <iconify-icon icon="streamline:shopping-bag-hand-bag-1-shopping-bag-purse-goods-item-products" style="color: #bf7449;" width="1.5em"></iconify-icon></a></li>
+        <li class="li-re"> <a href="http://localhost/maxvision/citas.php"> <span class="li-w">Citas </span> <iconify-icon icon="icon-park-solid:appointment" style="color: #bf7449;" width="1.5em" ></iconify-icon></a></li>
         <li><img src=" ' . $urlImg . '" alt="logo" class="logo"></li>
-        <li class="li-re"> <a href="http://localhost:8080/maxvision/contacto.php"> <span class="li-w">Empleados</span>
+        <li class="li-re"> <a href="http://localhost/maxvision/contacto.php"> <span class="li-w">Empleados</span>
         <iconify-icon icon="clarity:employee-group-solid" style="color: #bf7449;"></iconify-icon></a></li>
         <li>
         <li></li>
@@ -174,14 +174,14 @@ class Menu {
 
 
         <ul class="menu">
-          <li class="li-re"> <a href="http://localhost:8080/maxvision/productos.php"> <span class="li-w"> Productos</span> <iconify-icon icon="streamline:shopping-bag-hand-bag-1-shopping-bag-purse-goods-item-products" style="color: #bf7449;" width="1.5em"></iconify-icon></a></li>
-          <li class="li-re"> <a href="http://localhost:8080/maxvision/citas.php"> <span class="li-w">Citas </span> <iconify-icon icon="icon-park-solid:appointment" style="color: #bf7449;" width="1.5em" ></iconify-icon></a></li>
+          <li class="li-re"> <a href="http://localhost/maxvision/productos.php"> <span class="li-w"> Productos</span> <iconify-icon icon="streamline:shopping-bag-hand-bag-1-shopping-bag-purse-goods-item-products" style="color: #bf7449;" width="1.5em"></iconify-icon></a></li>
+          <li class="li-re"> <a href="http://localhost/maxvision/citas.php"> <span class="li-w">Citas </span> <iconify-icon icon="icon-park-solid:appointment" style="color: #bf7449;" width="1.5em" ></iconify-icon></a></li>
           <li><img src=" ' . $urlImg . '" alt="logo" class="logo"></li>
-          <li class="li-re"> <a href="http://localhost:8080/maxvision/contacto.php"> <span class="li-w">Contacto </span>
+          <li class="li-re"> <a href="http://localhost/maxvision/contacto.php"> <span class="li-w">Contacto </span>
           <iconify-icon icon="mingcute:whatsapp-line" style="color: #bf7449;" width="1.5em" ></iconify-icon> </a></li>
           <li>
           <li class="li-re"><a href=""> <iconify-icon  icon="typcn:shopping-cart" width="1.5em" style="color: #593844;"></iconify-icon></a> </li>
-           <li class="validation"><span class="log"><a href="http://localhost:8080/maxvision/login.php">Login</a></span><span class="reg"><a href="http://localhost:8080/maxvision/registro.php"><strong> Register </strong></a> </span></li>
+           <li class="validation"><span class="log"><a href="http://localhost/maxvision/login.php">Login</a></span><span class="reg"><a href="http://localhost/maxvision/registro.php"><strong> Register </strong></a> </span></li>
         </ul>
        </div>';
 

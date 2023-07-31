@@ -14,16 +14,16 @@ class Login
     {
         $this->rol = $pa;
         if ($pa == "Optometra" && $id_rol == $id_rolUser) {
-            header("Location: http://localhost:8080/maxvision/sessionOptometra/optometra.php", true, 301);
+            header("Location: http://localhost/maxvision/sessionOptometra/optometra.php", true, 301);
         } else if ($pa == "Cliente" && $id_rol == $id_rolUser) {
-            header("Location: http://localhost:8080/maxvision/sessionCliente/cliente.php", true, 301);
+            header("Location: http://localhost/maxvision/sessionCliente/cliente.php", true, 301);
         } else if ($pa == "Auxiliar" && $id_rol == $id_rolUser) {
-            header("Location: http://localhost:8080/maxvision/sessionAuxiliar/auxiliar.php", true, 301);
+            header("Location: http://localhost/maxvision/sessionAuxiliar/auxiliar.php", true, 301);
         }else if ($pa == "Admin" && $id_rol == $id_rolUser) {
-            header("Location: http://localhost:8080/maxvision/sessionAdministrador/admin.php", true, 301);
+            header("Location: http://localhost/maxvision/sessionAdministrador/admin.php", true, 301);
         }else{
             session_destroy();
-            header("Location: http://localhost:8080/maxvision/login.php", true, 301);
+            header("Location: http://localhost/maxvision/login.php", true, 301);
         }
     }
 
