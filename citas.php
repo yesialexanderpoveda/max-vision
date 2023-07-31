@@ -13,10 +13,29 @@
 
 </head>
 <body>
-    
+ <header>
 <?php 
+session_start();
+$val = $_SESSION['rol'];
+$rol = $_SESSION["idRolUser"];
+if (!isset($_SESSION['rol']) && empty($_SESSION['rol']) && $val !== "Cliente") {
+ header("Status: 301 Moved Permanently");
+ header("Location: ../index.php");
+ echo"<script language='javascript'>window.location='index.php'</script>;";
+ exit();
+ 
+}
 include "./menus/menu.php"; $log = new Menu(); $log->getMenu("./public/logo.png");
 ?>
+</header>
+
+<form action="./citas/hora-citas.php"  >
+      
+        
+      <input type="date" id="date" name="date" min="2023-01-02" max="2025-12-31"><br><br>
+      
+                <input type="submit">
+                </form> 
 
 <h1>Citas</h1>
 <!--  importar valores de menu  -->

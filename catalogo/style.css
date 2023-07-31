@@ -1,0 +1,61 @@
+
+  .btn {
+    align-items: center;
+    color-scheme: red;
+
+  }
+  .card-title {
+    width: 143px;
+height: 89px;
+flex-shrink: 0;
+
+color: #000;
+font-family: IBM Plex Serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+float: left;
+  }
+
+  .card-text{
+    width: 143px;
+height: 89px;
+flex-shrink: 0;
+
+color: #000;
+font-family: IBM Plex Serif;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+float: left;
+  }
+  .card {
+    border-radius: 0px;
+    margin-left: 10px;
+margin-right: 10px;
+/*O usando los padding*/
+padding-left: 10px;
+padding-right: 10px;
+margin-top: 10rem;
+
+width: 363px;
+height: 318px;
+flex-shrink: 0;
+
+background-color: rgba(242, 221, 203, 0.5);
+
+  }
+
+  .img {
+    align-items: center;
+   margin-top: 11px;
+   margin-left: 7px;
+   
+  width: 327px;
+height: 205px;
+flex-shrink: 0;
+
+
+  }

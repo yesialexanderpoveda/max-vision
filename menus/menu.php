@@ -60,11 +60,11 @@ class Menu {
       <nav>
        <span> <iconify-icon icon="mingcute:menu-fill" class="icon" style="color: #bf7449;" width="1.5em"></iconify-icon></span>   
          <ul>
-         <li>Inicio</li>
-         <li>Lentes</li>
-         <li>Paños</li>
-         <li>Estuches</li>
-         <li>Liquidos</li>
+         <li><a href="index.html">Inicio</a></li>
+         <li><a href="./catalogo/lentes.html">Lentes</a></li>
+         <li><a href="pagina_panos.html">Paños</a></li>
+         <li><a href="./catalogo/estuches.html">Estuches</a></li>
+         <li><a href="./catalogo/liquidos.html">Liquidos</a></li>
        </ul> 
       </nav>    
 
@@ -94,11 +94,11 @@ class Menu {
       <nav>
        <span> <iconify-icon icon="mingcute:menu-fill" class="icon" style="color: #bf7449;" width="1.5em"></iconify-icon></span>   
          <ul>
-         <li>Inicio</li>
-         <li>Lentes</li>
-         <li>Paños</li>
-         <li>Estuches</li>
-         <li>Liquidos</li>
+         <li><a href="index.html">Inicio</a></li>
+         <li><a href="./catalogo/lentes.html">Lentes</a></li>
+         <li><a href="pagina_panos.html">Paños</a></li>
+         <li><a href="./catalogo/estuches.html">Estuches</a></li>
+         <li><a href="./catalogo/liquidos.html">Liquidos</a></li>
        </ul> 
       </nav>    
 
@@ -164,11 +164,11 @@ class Menu {
         <nav>
          <span> <iconify-icon icon="mingcute:menu-fill" class="icon" style="color: #bf7449;" width="1.5em"></iconify-icon></span>   
            <ul>
-           <li>Inicio</li>
-           <li>Lentes</li>
-           <li>Paños</li>
-           <li>Estuches</li>
-           <li>Liquidos</li>
+           <li><a href="index.html">Inicio</a></li>
+           <li><a href="./catalogo/lentes.html">Lentes</a></li>
+           <li><a href="pagina_panos.html">Paños</a></li>
+           <li><a href="./catalogo/estuches.html">Estuches</a></li>
+           <li><a href="./catalogo/liquidos.html">Liquidos</a></li>
          </ul> 
         </nav>    
 
